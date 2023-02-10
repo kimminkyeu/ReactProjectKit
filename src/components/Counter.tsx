@@ -27,5 +27,5 @@ export function Counter(props : any) // 혹은 { message } 로 오브젝트를 �
             <h1>{count}</h1>
             <button onClick={handleClick}>{props.message}</button>
         </div>
-    )
+    );
 }
